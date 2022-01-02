@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .modal-dialog{
+            background: white;
+           border: 10px solid white;
+           border-radius: 10px;
+        }
+        
+        .modal-dialog img{
+            width: 100%;
+        }
+ 
+        .modal-content{
+            margin-top: 10px;
+            } 
+            
+     /*   .modal-header {
+            text-transform: uppercase;
+        } */
+
+        .modal-title{
+            width: 100%;
+            text-align: center;
+        }
+
+        .text-muted{
+            font-size: 22px;
+            text-align: justify;
+            line-height: 2;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <br>
+                <h2>REGLAS DEL GRUPO DE WHATSAPP</h2>
+<!--                 <p class="lead">Lea las reglas antes de unirse al grupo</p>
+ -->            </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <p class="text-muted my-4">
+                           Whatsapp es la aplicación de mensajería más usada en el mundo. La comunicación actual no se concibe sin usar herramientas digitales y de entre todas las plataformas, WhatsApp es la estrella. Y de todas las funciones que ofrece este servicio de mensajería la de crear grupo es sin duda la preferida de los usuarios.
+                           Los grupos de WhatsApp pueden ser un instrumento fantástico para compartir información y comunicarse con un grupo de personas que se unen con un propósito común. Eso sí, esto solo pasa si el grupo se gestiona bien y los miembros que  lo configuran cumplen con una serie de normas básicas de comunicación. <strong><em>Te exhorto leer las 
+                            reglas del grupo antes de unirte haciendo clic en el siguiente botón</em></strong> ...
+                        </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                            HAZ CLIC AQUÍ
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Modal itself -->
+    <div class="modal fade" tabindex="-1" id="reg-modal" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <img class="img-thumbnail" src="img/reglaswspng.png" alt="">
+            <div class="modal-content ">
+<!--                 <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Ya puedes unirte al grupo. Haz clic en el siguiente botón para unirte</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>  
+                </div> -->
+<!--                 <div class="modal-body">
+                    <p>Haga clic en el botón únete al grupo para unirse.</p>
+                </div> -->
+                <div class="modal-footer">
+<!--                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+ -->                    <a href="https://chat.whatsapp.com/C5T6UnSNDgu5n1cdTC72bd">
+                        <button type="button" class="btn btn-primary">ÚNETE AQUÍ</button>
+                    </a>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
